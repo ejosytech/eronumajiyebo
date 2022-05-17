@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15-May-2022, 20:44:07
+    Author     : majieronu
+*/
+
+.avatar_sub 
+    {
+    width:100px;
+    height:100px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin:auto;
+    border-radius:50px;
+    margin-bottom:30px
+    }
+    
+.avatar_main 
+    {
+    width:400px;
+    height:400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin:auto;
+    border-radius:300px;
+    margin-bottom:30px
+    }
