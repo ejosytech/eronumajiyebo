@@ -15,8 +15,15 @@ class site_content_manager
     {   //add_shortcode   
         
         add_shortcode('contact_page', array($this, 'render_contact_form'));
+        add_shortcode('profile_page', array($this, 'render_profile_form'));
+        add_shortcode('about_me_page', array($this, 'render_about_me_form'));
         add_shortcode('cv_page', array($this, 'render_cv_form'));
         add_shortcode('project_page', array($this, 'render_project_form'));
+        add_shortcode('publicatn_page', array($this, 'render_publicatn_form'));
+        add_shortcode('accomplish_page', array($this, 'render_accomplish_form'));
+        add_shortcode('training_page', array($this, 'render_training_form'));
+        add_shortcode('consult_page', array($this, 'render_consult_form'));
+        add_shortcode('academia_page', array($this, 'render_academia_form'));
       
     }
     
@@ -33,13 +40,41 @@ class site_content_manager
 				'title' => __( 'site Contact page', 'site_content_plugin' ),
 				'content' => '[contact_page]'
 			),
+                        'profile_page' => array(
+				'title' => __( 'site profile page', 'site_content_plugin' ),
+				'content' => '[profile_page]'
+			),
                         'cv_page' => array(
 				'title' => __( 'site cv page', 'site_content_plugin' ),
 				'content' => '[cv_page]'
 			),
+                       'about_me_page' => array(
+				'title' => __( 'site about me page', 'site_content_plugin' ),
+				'content' => '[about_me_page]'
+			),
                         'project_page' => array(
 				'title' => __( 'site project page', 'site_content_plugin' ),
 				'content' => '[project_page]'
+			),
+                        'publicatn_page' => array(
+				'title' => __( 'site publication page', 'site_content_plugin' ),
+				'content' => '[publicatn_page]'
+			),
+                       'accomplish_page' => array(
+				'title' => __( 'site accomplishment page', 'site_content_plugin' ),
+				'content' => '[accomplish_page]'
+			),
+                       'training_page' => array(
+				'title' => __( 'site training page', 'site_content_plugin' ),
+				'content' => '[training_page]'
+			),
+                       'consult_page' => array(
+				'title' => __( 'site consult page', 'site_content_plugin' ),
+				'content' => '[consult_page]'
+			),
+                        'academia_page' => array(
+				'title' => __( 'site academia page', 'site_content_plugin' ),
+				'content' => '[academia_page]'
 			)
                     
 		);
@@ -71,16 +106,32 @@ class site_content_manager
 		$default_attributes = array( 'show_title' => false );
 		$attributes = shortcode_atts( $default_attributes, $attributes );
                 
-        return $this->get_template_html('ramsme_contact', $attributes);
+        return $this->get_template_html('contact', $attributes);
     }
     
+    public function render_profile_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'show_title' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('profile', $attributes);
+    }
+     public function render_about_me_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'show_title' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('about_me', $attributes);
+    }
     public function render_cv_form($attributes, $content = null)
       {
         // Parse shortcode attributes
 		$default_attributes = array( 'show_title' => false );
 		$attributes = shortcode_atts( $default_attributes, $attributes );
                 
-        return $this->get_template_html('ramsme_rules', $attributes);
+        return $this->get_template_html('cv', $attributes);
     }
     public function render_project_form($attributes, $content = null)
       {
@@ -88,9 +139,49 @@ class site_content_manager
 		$default_attributes = array( 'show_title' => false );
 		$attributes = shortcode_atts( $default_attributes, $attributes );
                 
-        return $this->get_template_html('ramsme_constitution', $attributes);
+        return $this->get_template_html('project', $attributes);
     }
-    
+    public function render_publicatn_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'show_title' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('publicatn', $attributes);
+    }
+    public function render_training_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'show_title' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('training', $attributes);
+    }
+    public function render_academia_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'show_title' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('academia', $attributes);
+    }
+    public function render_accomplish_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'accomplish' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('consult', $attributes);
+    }
+    public function render_consult_form($attributes, $content = null)
+      {
+        // Parse shortcode attributes
+		$default_attributes = array( 'show_title' => false );
+		$attributes = shortcode_atts( $default_attributes, $attributes );
+                
+        return $this->get_template_html('consult', $attributes);
+    }
+   
     
         
   

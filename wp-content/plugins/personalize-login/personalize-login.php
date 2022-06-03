@@ -229,8 +229,8 @@ class Personalize_Login_Plugin {
 	 * Redirect to custom login page after the user has been logged out.
 	 */
 	public function redirect_after_logout() {
-		$redirect_url = home_url( 'member-login?logged_out=true' );
-                
+		//$redirect_url = home_url( 'member-login?logged_out=true' );
+               $redirect_url =  site_url();
                 //return $this->get_template_html( 'login_form', $attributes );
 		wp_redirect( $redirect_url );
 		exit;

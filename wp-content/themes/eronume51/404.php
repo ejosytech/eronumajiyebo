@@ -15,6 +15,6 @@
 
 <div class= "container">
     
-  <img src="<?php echo site_url();?>\wp-content\themes\ejosyConsult4\uploads\images\error_page\img1.jpeg" alt="Site Under Construction">
+  <img src="<?php bloginfo("template_directory");?>\uploads\images\error_page\under_construction.jpeg" alt="Site Under Construction">
 
 </div>

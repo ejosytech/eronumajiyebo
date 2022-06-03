@@ -16,14 +16,14 @@ class personalize_class
     public $personalize_table_name = "friends";
     
      //
-     public function create($comment,$email, $mobile, $othername, $surname, $user_image, $user_CV) 
+     public function create($comment,$email, $mobile, $othername, $surname) 
      {
          global $wpdb;
          try {
         $wpdb->insert(
                 $this->personalize_table_name, //$table_name,
-                array('comment' => $comment,'email'=>$email, 'mobile' => $mobile,'othernames' => $othername, 'surname' => $surname, 'userPic' => $user_image, 'userCV' => $user_CV), //data
-                array('%s', '%s', '%s', '%s','%s','%s','%s' ) //data format	
+                array('comment' => $comment,'email'=>$email, 'mobile' => $mobile,'othernames' => $othername, 'surname' => $surname), //data
+                array('%s', '%s', '%s', '%s','%s' ) //data format	
         );       
         	return true;
 		}
@@ -34,7 +34,7 @@ class personalize_class
 		}
      }
      
-      public function update($email, $comment, $mobile, $othername, $surname, $user_image, $user_CV) 
+      public function update($email, $comment, $mobile, $othername, $surname) 
     {         
           global $wpdb;
                    try               
@@ -46,14 +46,10 @@ class personalize_class
                                     'surname' =>$surname,
                                     'othernames' =>$othername,
                                     'mobile' =>$mobile,
-                                    'comment' =>$comment,
-                                    'userPic' => $user_image,
-                                    'userCV' => $user_CV
+                                    'comment' =>$comment
                                     ),
                                 array('email'=>$email),
                                 array(
-                                    '%s', // value1
-                                    '%s', // value1
                                     '%s', // value1
                                     '%s', // value1
                                     '%s'

@@ -1,11 +1,10 @@
-<?php get_header('login');?>
-
+<?php  get_header('home'); ?> 
     <main class="page cv-page">
         <section class="portfolio-block block-intro border-bottom">
             <div class="container">
-                <div class="avatar" style="background-image:url('avatars/avatar.jpg');"></div>
+                <div class="avatar" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.jpg');"></div>
                 <div class="about-me">
-                    <p>Hello! I am <strong>John Smith</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
+                    <p>Hello! I am <strong>John Smith</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="<?php echo site_url(); ?>/member-login/"">More About Me</a></div>
             </div>
         </section>
         <section class="portfolio-block cv">
@@ -121,5 +120,5 @@
             </div>
         </section>
     </main>
-
+-->
  <?php get_footer();?>   

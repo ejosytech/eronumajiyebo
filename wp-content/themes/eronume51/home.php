@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<?php get_header('login'); ?> 
+<?php get_header('home'); ?> 
 
 <main class="page lanidng-page">
     <section class="portfolio-block block-intro">
@@ -12,8 +12,8 @@ and open the template in the editor.
     
             <div class="row no-gutters justify-content-end">
    
-          <div  class="col-md-6 col-lg-6  col-sm-12">
-          <div class="avatar" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.jpg');"></div>
+          <div  class="col-md-6 col-lg-6  col-sm-12 justify-content-center">
+          <div class="avatar" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.png');"></div>
 
            </div>
               
@@ -24,34 +24,35 @@ and open the template in the editor.
         </div>
         
          <div class="about-me">
-                <p> ...Well organised, reliable and competent with extensive skills and experience in the development of conceptualised solutions.</p><a class="btn btn-outline-primary" role="button" href="#">Contact me</a>
+                <p> ...Well organised, reliable and competent with extensive skills and experience in the development of conceptualised solutions.</p>
          </div>
                  
                 <div class="row justify-content-start"> 
-                     <h3>Academia | Software Engineer | Consulting</h3>
+                     <h3>Academia|Software Engineer|Consulting</h3>
                  <div class="col-md-3 col-sm-12 ">   
-                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.jpg');"></div>
+                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/interest/ejosy_consult_iot.jpg');"></div>
                   </div>
                     <div class="col-md-3  col-sm-12 ">   
-                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.jpg');"></div>
+                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/interest/ejosy_consult_sn.jpg');"></div>
                     </div><!-- comment -->
                     <div class="col-md-3  col-sm-12 ">   
-                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.jpg');"></div>
+                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/interest/ejosy_consult_siim.jpg');"></div>
                     </div><!-- comment -->
                     <div class="col-md-3  col-sm-12">   
-                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/avatars/me.jpg');"></div>
+                 <div class="avatar_sub" style="background-image:url('<?php bloginfo("template_directory");?>/img/interest/ejosy_consult_onlinelearn.jpg');"></div>
                   </div>
                  
                  </div>
-             
+             <a class="btn btn-outline-primary" role="button" href="#">Contact me</a>
                   
              </div>
               
          </div>
        
           </div>
-       
+     
     </section>
+      <!-- 
     <section class="portfolio-block photography">
         <div class="container">
             <div class="row no-gutters">
@@ -128,9 +129,9 @@ and open the template in the editor.
     </div>
   </div>
 </section>
-     </main>
+     
     
-    <!--
+   
     <section class="portfolio-block call-to-action border-bottom">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center content">
@@ -193,5 +194,7 @@ and open the template in the editor.
     </div>
 </section>
 -->
+
+</main>
 
 <?php get_footer(); ?> 

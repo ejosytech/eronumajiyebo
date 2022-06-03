@@ -9,10 +9,11 @@ $npersonalize = new personalize_class();
 
 <?php if ( is_user_logged_in() ) 
     {
-    get_header('logout'); 
+     get_header('loggedin'); 
+    
     }
    else{
- get_header('login'); 
+        get_header('loggedout'); 
     }
 ?>        
 
@@ -80,6 +81,8 @@ $npersonalize = new personalize_class();
         </form>
     </div>
 </section>
+
+<?php get_footer(); ?> 
 
    
    
