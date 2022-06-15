@@ -5,7 +5,11 @@
                 <div class="avatar" style="background-image:url('<?php echo plugin_dir_url(__Dir__);?>/img/me-suite.jpg');"></div>
                 <div class="about-me">
                     <p><strong>Dr. Emmanuel M. Eronu</strong> </p>
-                    <p>I am Self-motivated, well organized, reliable and competent with extensive skills and experience in developing conceptualized solutions. I am able to remain calm under pressure and retain a sense of humour while adapting to current trends of new technologies. Over the years, I have consistently strived to create a challenging learning environment where students can become lifelong scholars and learners. One of my cardinal objectives is to contribute significantly to achieving organizational objectives by adding value to all operational activities via ICT technologies. </p>
+                    <h3>Personal Profile and Objectives</h3>
+                    <p>I am Self-motivated, well organized, reliable and competent with extensive skills and experience in developing conceptualized solutions.</p> 
+                    <p>I am able to remain calm under pressure and retain a sense of humour while adapting to current trends of new technologies. </p>
+                    <p>Over the years, I have consistently strived to create a challenging learning environment where students can become lifelong scholars and learners.</p><!-- comment --> 
+                    <p>One of my cardinal objectives is to contribute significantly to achieving organizational objectives by adding value to all operational activities via ICT technologies. </p>
                 </div>
             </div>
         </section>
@@ -32,35 +36,47 @@
                                         <h5 class="card-title">Role | Responsibility</h5>
                                         <h6 class="card-subtitle mb-2 text-muted">Speciality</h6>
                                         <ul>
-                                            <li>Embedded System Design, Development and Deployment</li>
+                                            <li>Over fifteen years’ experience developing, debugging and maintaining embedded systems based Applications</li>
                                             <li>IoT Application Design, Development and Deployment</li>
-                                            <li>Full Stack Software Developer</li>
+                                            <li>Full Stack Software Developer: Develop, maintain and support application programs for administrative, Web and mobile systems using C# and related tools</li>
+                                            <li>Develop, maintain and support application programs for administrative, Web and mobile systems using C# and related tools</li>
                                             <li>Digital Education Expert</li>
                                         </ul>
-                                        <h6 class="card-subtitle mb-2 text-muted">Management</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted">Project Management</h6>
                                         <ul>
-                                            <li>.....</li>
-                                            <li>.........</li>
+                                            <li>Reengineered multiple systems that fueled improvements to productivity, efficiency, uptime and accuracy for business operations</li>
+                                            <li>Served as a Team Lead and core group member in defining and prioritizing technology investments for ensuring the alignment of process, technology and business objectives.</li>
+                                            <li>Trained and mentored junior programmers in programming methodologies and best practices.</li>
                                         </ul>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                       
                                     </div>
                                      <div class="card-body">
-                                        <h5 class="card-title">Selected Accomplishments</h5>
-                                        <h6 class="card-subtitle mb-2 text-muted">Services</h6>
+                                        <h5 class="card-title">Accomplishments (selected)</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Projects | Products</h6>
                                         <ul>
-                                            <li>....</li>
-                                            <li>.....</li>
+                                            <li>SIIM</li>
+                                            <li>CBEAS</li>
+                                            <li>NFC</li>
+                                            <li>Webportal</li>
+                                                <ul>
+                                                    <li><a href ="https://www.ramsme.com">Estate Management Platform (Use Case)</a></li>
+                                                    <li><a href ="https://cbeas.ejosytech.com">Community Based Emergency Alert System</a></li>
+                                                    <li><a href ="https://lms.ejosytech.com">Ejosy Tutor</a></li>
+                                                    <li><a href ="https://lms.eronumajiyebo.online">Online learning Platform</a></li>
+                                                    <li><a href ="https://estore.ejosytech.com">Ejosy Tutor</a></li>
+                                                    
+                                                </ul>
                                         </ul>
-                                        <h6 class="card-subtitle mb-2 text-muted">Products</h6>
-                                        <ul>
-                                            <li>.....</li>
-                                            <li>........</li>
-                                        </ul>
-                                            <a href="https://github.com/ejosytech" class="card-link">Github</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            
                                     </div>
+                                     
+                                      <div class="card-body">
+                                        <h5 class="card-title">Links</h5>
+                                            <p><a href="https://github.com/ejosytech" class="card-link">ejosytech GitHub</a></br><a href="https://www.ejosytech.com" class="card-link">Ejosy Tech Consult Ltd</a></p>
+                                       </div>
                                 </div>
+                            
+                     
                          
                         </div>
                     
@@ -69,12 +85,12 @@
                     <div class="item">
                         <h3>Senior Lecturer/Researcher </h3>
                         <div class="row">
-                            <div class="col-md-6"><a href="https://www.uniabuja.edu.ng"><h4 class="organization">University of Abuja </h4></a></div>
+                            <div class="col-md-6"><a href="https://www.uniabuja.edu.ng"><h4 class="organization">University of Abuja, Dept. of Electrical/Elect. Engineering,Facualty of Engineering,Abuja,Nigeria.</h4></a></div>
                             <div class="col-md-6"><span class="period">2008 - To Date</span></div>
                         </div>
                          <div class="row">
-                             <div class="col-md-6"><a href="https://futminna.edu.ng/"> <h4 class="organization">Federal University of Technology, Minna</h4></a></div>
-                            <div class="col-md-6"><span class="period">2016 - To Date</span></div>
+                             <div class="col-md-6"><a href="https://futminna.edu.ng/"> <h4 class="organization">Federal University of Technology,Dept. of Electrical & Computer Engineering, School of Engineering and Technology,Minna, Niger state</h4></a></div>
+                            <div class="col-md-6"><span class="period">1999 - 2008</span></div>
                         </div>
                         <div class="row">
                             
@@ -101,7 +117,7 @@
                                         </ul>
                                            
                                     </div>
-                                        <div class="card-body">
+                                    <div class="card-body">
                                             <h5 class="card-title">Administration | Management (Selected)</h5>
                                          <ul>
                                             <li><strong>Coordinator,</strong>Computer Engineering Dept</li>
@@ -111,9 +127,10 @@
                                         </ul>
                                      </div>
                                      
-                                        <a href="https://lms.eronumajiyebo.online" class="card-link">Online learning Platform</a>
-                                        <a href="https://embiot.eronumajiyebo.online" class="card-link">Research group portal</a>
-                                     
+                                     <div class="card-body">
+                                        <h5 class="card-title">Links</h5>
+                                        <p> <a href="https://lms.eronumajiyebo.online" class="card-link">Online learning Platform</a></br><a href="https://embiot.eronumajiyebo.online" class="card-link">Research group portal</a></p>
+                                     </div>
                                 </div>
                          
                         </div>
@@ -129,22 +146,32 @@
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
-                                <h3>High School</h3>
-                                <h4 class="organization">Albert Einstein School</h4>
+                                <h3>Doctor of Philosophy </br>[Computer Engineering]</h3>
+                                <h4 class="organization">Federal University of Technology, Minna, Niger State, Nigeria.</h4>
                             </div>
-                            <div class="col-6"><span class="period">09/2005 - 05/2010</span></div>
+                            <div class="col-6"><span class="period">2012 - 2015</span></div>
                         </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                      <!--  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p> -->
                     </div>
                     <div class="item">
                         <div class="row">
                             <div class="col-md-6">
-                                <h3>Applied Physics</h3>
-                                <h4 class="organization">Stephen Hawking College</h4>
+                                <h3>Master of Science [M.SC (Eng.)]</br>[Electrical and Electronic Engineering(Telecommunication)]</h3>
+                                <h4 class="organization">University of Lagos, Akoka, Lagos State, Nigeria</h4>
                             </div>
-                            <div class="col-md-6"><span class="period">09/2010 - 06/2015</span></div>
+                            <div class="col-md-6"><span class="period">2002 - 2004</span></div>
                         </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
+                        <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p> -->
+                    </div>
+                       <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Bachelor of Engineering</br>[[Electrical & Computer  Engineering]]</h3>
+                                <h4 class="organization">Federal University of Technology, Minna, Niger State, Nigeria.</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">1992 - 1998</span></div>
+                        </div>
+                        <!-- <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p> -->
                     </div>
                 </div>
                 <div class="group">
@@ -152,17 +179,33 @@
                         <div class="col-md-6">
                             <div class="skills portfolio-info-card">
                                 <h2>Skills</h2>
-                                <h3>HTML</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
-                                </div>
                                 <h3>PHP</h3>
                                 <div class="progress">
                                     <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"><span class="sr-only">90%</span></div>
                                 </div>
+                                <h3>C++</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">90%</span></div>
+                                </div>
+                                <h3>C</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span class="sr-only">90%</span></div>
+                                </div>
+                                <h3>C#</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="sr-only">90%</span></div>
+                                </div>
+                                <h3>Java</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"><span class="sr-only">90%</span></div>
+                                </div>
                                 <h3>JavaScript</h3>
                                 <div class="progress">
                                     <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                                </div>
+                                <h3>HTML</h3>
+                                <div class="progress">
+                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +214,7 @@
                                 <h2>Contact Info</h2>
                                 <div class="row">
                                     <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
-                                    <div class="col-9"><span>10/10/1990</span></div>
+                                    <div class="col-9"><span><?php echo  date("d/m/Y")?> </span></div>
                                 </div>
                                 <div class="row">
                                     <div class="col-1"><i class="icon ion-person icon"></i></div>
@@ -193,7 +236,7 @@
                     <div class="heading">
                         <h2 class="text-center">Hobbies</h2>
                     </div>
-                    <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus ligula, iaculis ut metus sit amet, luctus pharetra mauris. Aliquam purus felis, pretium vel pretium vitae, dapibus sodales ante. Suspendisse potenti. Duis nunc eros.</p>
+                    <p class="text-center text-muted">I enjoy playing table tennis, programming, travelling and meeting people from diverse cultures</p>
                 </div>
             </div>
         </section>
