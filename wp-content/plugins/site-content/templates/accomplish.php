@@ -1,13 +1,7 @@
 <?php  get_header('home'); ?> 
 
 <main class="page cv-page">
-<section class="portfolio-block block-intro border-bottom">
-     <div class="container">
-     <div class="row">
-          <div class="heading">
-                        <h2 class="text-center">Accomplishments</h2>
-                    </div>
-                        
+    <div class ="container" > 
                             <div class="skills portfolio-info-card">
                                
                                 <!-- Corousal - Begin-------->
@@ -16,7 +10,7 @@
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                         
                                         </div>
                                         <div class="carousel-inner">
                                           <div class="carousel-item active">
@@ -26,13 +20,7 @@
                                               <p>Award of Certificate for the Completion of Technical Training in Cutting Edge Technologies (5G and IoT)</p>
                                             </div>
                                           </div>
-                                          <div class="carousel-item">
-                                            <img src="<?php echo plugin_dir_url(__Dir__);?>/img/accomplish/Tsuga-cert-6x3.jpg" class="d-block w-100" alt="...">
-                                            <div class="carousel-caption d-none d-md-block">
-                                              <h5>Tianjin Sino-German University of Applied Sciences (TSGUAS), Tianjin, China</h5>
-                                              <p>Award of Certificate for the Completion of Technical Training in Cutting Edge Technologies (5G and IoT)</p>
-                                            </div>
-                                          </div>
+                                         
                                           <div class="carousel-item">
                                             <img src="<?php echo plugin_dir_url(__Dir__);?>/img/accomplish/epfl-6x3.jpg" class="d-block w-100" alt="...">
                                             <div class="carousel-caption d-none d-md-block">
@@ -52,41 +40,67 @@
                                       </div>
                                 <!------------------------Corosel End----------------->
                                 </div>
-                            </div>
-         </div>
-</section>
-<section class="portfolio-block block-intro border-bottom">
+        </div>
+    <section>
+        <div class="container">
+            <p></p>
+        <div class="heading">
+                    <h3>Selected Accomplishments</h3>
+        </div>
+            <p></p>
+            </div>
+    </section>
+ 
+<section>
     <div class="container">
-<div class="group">
+        
+
+        <div class="group">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="skills portfolio-info-card">
-                                <h2>Academia | Research</h2>
+                                <h4> Software Engineering | Consulting</h4>
                                 <div class="card" >
                                     <div class="card-body">
-                                        <p align="left"> Digital Education Expert <a href="https://lms.eronumajiyebo.online">[lms.eronumajiyebo.online]</a> </p>
-                                        <p align="left">Administered and Managed successfully the SIWES Directorate and Computer Engineering Dept </p> 
-                                        <p align="left">Mentored and Coordinated Research Work in Embedded System and IoT </p>
-                                        <p align="left">Publications</p> 
-                                                                            
-                                    </div><!-- </div> -->
-                                    </div>
+                                      <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Over twelve <span class="badge bg-primary rounded-pill">12</span> years’ experience in Full Stack software and Embedded Systems applications development<a href="https://ejosytech.com" target="blank">...more</a></li>
+                                        </ul><!-- comment --> 
+                                        <ul class="list-group list-group-flush">                                                               <ul class="list-group list-group-flush">
+                                        <strong>Projects | Products</strong>
+                                                 <li class="list-group-item">Near Field Communication Based Identity Mobile Verifier<a href="https://ejosytech.com/nfcbimv/" target="blank">(NFC-BIMV)</a></li>
+                                                <li class="list-group-item">Secured Identity Issuance Management system <a href="https://ejosytech.com/siim/" target="blank">(SIIM)</a></li> 
+                                                <li class="list-group-item">Community Based Emergency Alert System <a href="https://ejosytech.com/cbeas/" target="blank">(CBEAS)</a></li>
+                                        <strong>Website | Web Portal | Mobile App</strong>
+                                                    <li class="list-group-item"><a href ="https://www.ramsme.com" target="blank">Estate Management Platform (Use Case)</a></li>
+                                                    <li class="list-group-item"><a href ="https://cbeas.ramsme.com" target="blank">Community Based Emergency Alert System</a></li>
+                                                    <li class="list-group-item"><a href ="https://lms.eronumajiyebo.online" target="blank">Online learning Platform</a></li>
+                                                    <li class="list-group-item"><a href ="https://store.ejosytech.com" target="blank">ejosy store [e-commerce]</a></li>
+                                                    <li class="list-group-item"><a href ="https://bnethub.com" target="blank">bnethub.com</a></li>
+                                         </ul>
+                                 </ul>
+                                 
+                                  
+                            </div>
+                    </div>
+                                
                                 
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="skills portfolio-info-card">
-                            <div class="contact-info portfolio-info-card">
-                                <h2> Software Engineering | Consulting</h2>
-                                <div class="card" >
+                            <h4>Academia | Research</h4>
+                            <div class="card" >
                                     <div class="card-body">
-                                 <p align="left">Projects </p>
-                                  <p align="left">Product</p>
-                                  <p align="left">Speciality</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Over fifteen years <span class="badge bg-primary rounded-pill">15</span> experience in delivering  embedded systems and wireless communication related course contents in tertiary institutions</li>
+                                        <li class="list-group-item"><a href="<?php echo site_url(); ?>/Publicatn_page/" target ="blank">Publications</a></li>
+                                        <li class="list-group-item">Digital Education Expert <a href="https://lms.eronumajiyebo.online" target="blank">[lms.eronumajiyebo.online]</a> </li>
+                                        <li class="list-group-item">Effective Coordination and Management: Departmental Postgraduate Affairs, Computer Engineering Dept and the SIWES Directorate </li>
+                                        <li class="list-group-item">Head, Embedded System and IoT Research Group <a href="https://embiot.eronumajiyebo.online" target="blank">[embiot.eronumajiyebo.online]</a> </li><!-- comment -->
+                                    </ul>                                                                            
+                                    </div><!-- </div> -->
+                                    </div>
                                 
-                            </div>
-                        </div>
-                    </div>
                 </div>
         </div>
                         </div>
